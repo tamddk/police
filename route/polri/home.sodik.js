@@ -145,7 +145,7 @@ export function run_home(dataArr1, dataArr2) {
               <p>We created a discussion column for you, we to receive notifications that you convey to us.</p>
               <p><b><a href="https://www.instagram.com/tamddk/" target="_blank">Tubagus Ahmad Sodik</a></b> (Owner This Project)</p>
           </div>
-          <div id="disqus_thread" class="mt-4"></div>
+          <div id="disqus_thread" class="mt-8 ml-8 mr-8 p-4"></div>
         </div>
       </div>
     </div>

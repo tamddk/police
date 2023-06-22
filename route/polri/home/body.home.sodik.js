@@ -501,7 +501,6 @@ export function body_home(data_arr2, data_arr3) {
       _sdk_create_jQueryTables(),
       _sdk_create_aos(),
       _sdk_create_chartjs();
-    // _sdk_create_disqus();
   }, 1000);
 
   return _sdk_pages();
