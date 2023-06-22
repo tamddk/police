@@ -1,4 +1,4 @@
-import { default_home } from "../route/0182746283910.js";
+import { default_home } from "https://tamddk.github.io/police/route/0182746283910.js";
 
 export function _sdk_signin() {
   var default_pages = document.getElementById("root"),
