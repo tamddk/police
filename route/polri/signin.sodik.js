@@ -1,4 +1,4 @@
-import { _sdk_signin } from "https://tamddk.github.io/police/police/route/validation/form/request.signin.sodik.js";
+import { _sdk_signin } from "https://tamddk.github.io/police/route/validation/form/request.signin.sodik.js";
 
 export function run_signin() {
   function _sdk_pages() {
