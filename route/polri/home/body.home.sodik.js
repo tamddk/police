@@ -497,12 +497,9 @@ export function body_home(data_arr2, data_arr3) {
     setTimeout(() => {
       _sdk_create_jQueryTables();
       setTimeout(() => {
-        _sdk_create_aos();
-        setTimeout(() => {
-          _sdk_create_chartjs();
-        }, 700);
-      }, 600);
-    }, 500);
+        _sdk_create_aos(), _sdk_create_chartjs();
+      }, 1000);
+    }, 1000);
   }, 1000);
 
   return _sdk_pages();
