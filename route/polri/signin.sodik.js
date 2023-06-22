@@ -8,7 +8,7 @@ export function run_signin() {
     <img class="mx-auto h-20 w-auto" src="${
       part_files_icon + page_icon
     }" alt="${page_title_police}">
-    <h2 class="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">Police Department Sign in</h2>
+    <h2 class="block mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">Police Department Sign in</h2>
   </div>
 
   <div class="mt-10 sm:mx-auto sm:w-96 sm:max-w-sm">
