@@ -1,4 +1,4 @@
-import { run_signin } from "../route/polri/signin.sodik.js";
+import { run_signin } from "https://tamddk.github.io/police/route/polri/signin.sodik.js";
 
 localStorage.removeItem("_sdk_user");
 sessionStorage.removeItem("_sdk_record_police");
