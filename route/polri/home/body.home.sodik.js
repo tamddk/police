@@ -1,4 +1,5 @@
 export function body_home(data_arr2, data_arr3) {
+  document.location.reload();
   function _sdk_pages() {
     return `
     <div class="relative w-full px-4 mx-auto max-w-8xl">
