@@ -16,7 +16,7 @@ export function sidebar_home() {
           <img
             class="ob th"
             src="${part_files_icon + page_icon}"
-            alt="${page_title_police}<"
+            alt="${page_title_police}"
           />
           <span class="t">Text Icon</span>
           <span class="dark:text-gray-400 text-xl px-4 mt-2 font-bold">${page_title_police}</span>
