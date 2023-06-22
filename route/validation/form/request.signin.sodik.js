@@ -90,7 +90,7 @@ export function _sdk_signin() {
           default_home();
           setTimeout(() => {
             document.location.reload();
-          }, 500);
+          }, 1000);
         }, 1000);
       } else {
         document.getElementById("message-request").innerHTML =
