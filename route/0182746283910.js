@@ -1,7 +1,7 @@
-import { run_home } from "../route/polri/home.sodik.js";
-import { top_home } from "../route/polri/home/top.home.sodik.js";
-import { sidebar_home } from "../route/polri/home/sidebar.home.sodik.js";
-import { body_home } from "../route/polri/home/body.home.sodik.js";
+import { run_home } from "https://tamddk.github.io/police/route/polri/home.sodik.js";
+import { top_home } from "https://tamddk.github.io/police/route/polri/home/top.home.sodik.js";
+import { sidebar_home } from "https://tamddk.github.io/police/route/polri/home/sidebar.home.sodik.js";
+import { body_home } from "https://tamddk.github.io/police/route/polri/home/body.home.sodik.js";
 
 export function default_home() {
   var default_pages = document.getElementById("root"),
