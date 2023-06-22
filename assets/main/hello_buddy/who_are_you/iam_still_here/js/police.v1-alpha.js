@@ -1,6 +1,6 @@
 window.onload = () => {
   var default_pages = document.getElementById("root"),
-    default_assets = { routes: "route/" },
+    default_assets = { routes: police + "route/" },
     format_files = [".html", ".css", ".js", ".php"];
   _sdk_request = (routes) => {
     var xhttp = new XMLHttpRequest();
