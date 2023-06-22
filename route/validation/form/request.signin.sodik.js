@@ -1,8 +1,8 @@
-import { default_home } from "/route/0182746283910.js";
+import { default_home } from "../route/0182746283910.js";
 
 export function _sdk_signin() {
   var default_pages = document.getElementById("root"),
-    default_assets = { routes: "route/" },
+    default_assets = { routes: url_default_page + "route/" },
     format_files = [".html", ".css", ".js", ".php"],
     default_forms = document.forms["validation"],
     default_timer = 5,

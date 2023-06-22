@@ -392,7 +392,10 @@ export function notification_main() {
       const audioEl = document.createElement("audio");
       audioEl.setAttribute("id", "notif-audio");
       audioEl.setAttribute("class", "notif-audio");
-      audioEl.setAttribute("src", "assets/main/sound/notification.mp3");
+      audioEl.setAttribute(
+        "src",
+        url_default_page + "assets/main/sound/notification.mp3"
+      );
       audioEl.setAttribute("autoplay", true);
       document.body.appendChild(audioEl);
       setTimeout(() => {

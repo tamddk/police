@@ -145,7 +145,8 @@ export function body_home(data_arr2, data_arr3) {
     css0.setAttribute("rel", "stylesheet");
     css0.setAttribute(
       "href",
-      "assets/vendor/jquery-tables/dist/css/jquery.dataTables.css"
+      url_default_page +
+        "assets/vendor/jquery-tables/dist/css/jquery.dataTables.css"
     );
     document.head.appendChild(css0);
 
@@ -158,7 +159,9 @@ export function body_home(data_arr2, data_arr3) {
     setTimeout(() => {
       var scrpt1 = document.createElement("script");
       scrpt1.setAttribute("id", "jquery-datatables-js");
-      scrpt1.src = "assets/vendor/jquery-tables/dist/js/jquery.dataTables.js";
+      scrpt1.src =
+        url_default_page +
+        "assets/vendor/jquery-tables/dist/js/jquery.dataTables.js";
       document.head.appendChild(scrpt1);
     }, 500);
   }
@@ -166,7 +169,8 @@ export function body_home(data_arr2, data_arr3) {
   function _sdk_create_chartjs() {
     var scrpt2 = document.createElement("script");
     scrpt2.setAttribute("id", "chart-js");
-    scrpt2.src = "assets/vendor/chartjs/dist/js/chartjs-2.6.0.js";
+    scrpt2.src =
+      url_default_page + "assets/vendor/chartjs/dist/js/chartjs-2.6.0.js";
     document.head.appendChild(scrpt2);
     setTimeout(() => {
       var scrpt3 = document.createElement("script");
@@ -180,12 +184,16 @@ export function body_home(data_arr2, data_arr3) {
     var css1 = document.createElement("link");
     css1.setAttribute("id", "aos-css");
     css1.setAttribute("rel", "stylesheet");
-    css1.setAttribute("href", "assets/vendor/aos/dist/css/aos-2.3.0.css");
+    css1.setAttribute(
+      "href",
+      url_default_page + "assets/vendor/aos/dist/css/aos-2.3.0.css"
+    );
     document.head.appendChild(css1);
 
     var scrpt4 = document.createElement("script");
     scrpt4.setAttribute("id", "aos-js");
-    scrpt4.src = "assets/vendor/aos/dist/js/aos-2.3.0.min.js";
+    scrpt4.src =
+      url_default_page + "assets/vendor/aos/dist/js/aos-2.3.0.min.js";
     document.head.appendChild(scrpt4);
 
     setTimeout(() => {

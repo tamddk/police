@@ -1,9 +1,9 @@
-import { run_signin } from "/route/polri/signin.sodik.js";
-import { remove_function } from "/route/validation/remove.function.sodik.js";
+import { run_signin } from "../route/polri/signin.sodik.js";
+import { remove_function } from "../route/validation/remove.function.sodik.js";
 
 export function top_home() {
   var default_pages = document.getElementById("root"),
-    default_assets = { routes: "route/" },
+    default_assets = { routes: url_default_page + "route/" },
     format_files = [".html", ".css", ".js", ".php"];
 
   function _sdk_pages() {
