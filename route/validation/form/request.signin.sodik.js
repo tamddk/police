@@ -88,7 +88,7 @@ export function _sdk_signin() {
         ).innerHTML = `<div><span class="font-medium">0</span></div>`;
         setTimeout(() => {
           default_home();
-          // document.location.reload();
+          document.location.reload();
         }, 1000);
       } else {
         document.getElementById("message-request").innerHTML =
