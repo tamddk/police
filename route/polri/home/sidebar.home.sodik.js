@@ -19,7 +19,7 @@ export function sidebar_home() {
             alt="${page_title_police}<"
           />
           <span class="t">Text Icon</span>
-          <span class="dark:text-gray-400 text-xl px-4 mt-2 font-bold">${page_title_police}<</span>
+          <span class="dark:text-gray-400 text-xl px-4 mt-2 font-bold">${page_title_police}</span>
         </div>
         <nav class="ls uh ym">
           <ul role="list" class="ls uh ym aaq">
