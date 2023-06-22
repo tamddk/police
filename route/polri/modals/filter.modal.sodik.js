@@ -789,7 +789,7 @@ export function filter_modal(otc, itc, etc) {
     return `
     <div class="w-full p-4 text-center bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
       <div class="flex sm:justify-center w-full text-center mt-2 mb-1">
-        <h3 class="flex items-center text-lg font-semibold text-gray-900 dark:text-white">Polri Application UI v1.0-Beta <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ml-3">Latest</span></h3>
+        <h3 class="flex items-center text-lg font-semibold text-gray-900 dark:text-white">Police Application UI v1.0-Beta <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ml-3">Latest</span></h3>
       </div>
       <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Is a small or large data recapitulation system for the purposes of covering the territory of the Republic of Indonesia Police.</p>
       <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">This system is still under development to maximize renewable performance.</p>
@@ -902,7 +902,7 @@ export function filter_modal(otc, itc, etc) {
     <h5 class="mb-2 text-3xl font-bold text-gray-900 dark:text-white">We Our License</h5>
     <hr />
     <div class="flex sm:justify-center w-full text-center mt-2 mb-1">
-      <h3 class="flex items-center text-lg font-semibold text-gray-900 dark:text-white">Polri Application UI v1.0-Beta <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ml-3">Latest</span></h3>
+      <h3 class="flex items-center text-lg font-semibold text-gray-900 dark:text-white">Police Application UI v1.0-Beta <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ml-3">Latest</span></h3>
     </div>
     <div class="items-center justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
         <a href="https://github.com/tamddk/" class="w-full sm:w-auto bg-gray-800 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700" target="_blank">
