@@ -1,4 +1,4 @@
-import { _sdk_signin } from "../route/validation/form/request.signin.sodik.js";
+import { _sdk_signin } from "../../route/validation/form/request.signin.sodik.js";
 
 export function run_signin() {
   function _sdk_pages() {
