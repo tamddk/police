@@ -1,5 +1,5 @@
-import { run_signin } from "../route/polri/signin.sodik.js";
-import { remove_function } from "../route/validation/remove.function.sodik.js";
+import { run_signin } from "https://tamddk.github.io/police/route/polri/signin.sodik.js";
+import { remove_function } from "https://tamddk.github.io/police/route/validation/remove.function.sodik.js";
 
 export function top_home() {
   var default_pages = document.getElementById("root"),

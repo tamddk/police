@@ -1,11 +1,11 @@
-import { run_signin } from "../route/polri/signin.sodik.js";
-import { notification_main } from "../route/notification/index.sodik.js";
-import { filter_modal } from "../route/polri/modals/filter.modal.sodik.js";
-import { modals } from "../route/components/modal.js";
-import { collapses } from "../route/components/collapse.js";
-import { dark_mode } from "../route/components/dark-mode.js";
-import { local_storage } from "../route/polri/validation_storage.sodik.js";
-import { remove_function } from "../route/validation/remove.function.sodik.js";
+import { run_signin } from "https://tamddk.github.io/police/route/polri/signin.sodik.js";
+import { notification_main } from "https://tamddk.github.io/police/route/notification/index.sodik.js";
+import { filter_modal } from "https://tamddk.github.io/police/route/polri/modals/filter.modal.sodik.js";
+import { modals } from "https://tamddk.github.io/police/route/components/modal.js";
+import { collapses } from "https://tamddk.github.io/police/route/components/collapse.js";
+import { dark_mode } from "https://tamddk.github.io/police/route/components/dark-mode.js";
+import { local_storage } from "https://tamddk.github.io/police/route/polri/validation_storage.sodik.js";
+import { remove_function } from "https://tamddk.github.io/police/route/validation/remove.function.sodik.js";
 
 export function run_home(dataArr1, dataArr2) {
   local_storage();
