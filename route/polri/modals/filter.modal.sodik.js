@@ -987,7 +987,9 @@ export function filter_modal(otc, itc, etc) {
           ${_user_parse[0].toLowerCase()}
           </th>
           <td class="px-6 py-4">
-            <a href="${_user_parse[1].toLowerCase()}" target="_blank">Link</a>
+            <a href="${
+              part_files_icon + _user_parse[1].toLowerCase()
+            }" target="_blank">Link</a>
           </td>
           <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
           ${_user_parse[2].toLowerCase()}
