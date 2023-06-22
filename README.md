@@ -1,2 +1,3 @@
-# polri
-Create API POLRI in Indonesia with JSON
+# police
+
+Aplication POLICE v1-Beta By Mas Sodik
