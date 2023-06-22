@@ -533,9 +533,6 @@ export function filter_modal(otc, itc, etc) {
           <th scope="col" class="px-6 py-3">Person Ages</th>
           <th scope="col" class="px-6 py-3">Case Records</th>
           <th scope="col" class="px-6 py-3">Prison Sentence</th>
-          <th scope="col" class="px-6 py-3">
-            <span class="sr-only">Edit</span>
-          </th>
         </tr>
       </thead>
       <tbody class="preload-sessionData">${_sdk_add_view_case.create_object()}</tbody>
