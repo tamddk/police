@@ -961,6 +961,9 @@ export function filter_modal(otc, itc, etc) {
 
   function _sdk_add_view_accounts() {
     _sdk_add_view_case.create_jquery_tables();
+    let _user = localStorage.getItem("_sdk_user"),
+      _user_parse = JSON.parse(_user);
+
     return `
     <div class="relative">
     <table id="jqueryTables" class="display">
@@ -980,12 +983,14 @@ export function filter_modal(otc, itc, etc) {
           <td class="px-6 py-4">
               1
           </td>
-          <th scope="row" class="session_user_name px-6 py-4">
+          <th scope="row" class="px-6 py-4">
+          ${_user_parse[0].toLowerCase()}
           </th>
           <td class="px-6 py-4">
-            <a href="#" class="session_user_images" target="_blank">Link</a>
+            <a href="${_user_parse[1].toLowerCase()}" target="_blank">Link</a>
           </td>
-          <td class="session_user_email px-6 py-4 bg-gray-50 dark:bg-gray-800">
+          <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+          ${_user_parse[2].toLowerCase()}
           </td>
           <td class="px-6 py-4 bg-green-400">
               DEMO
