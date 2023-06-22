@@ -57,6 +57,7 @@ function create_notif_access() {
     localStorage.setItem("_sdk_access", "1");
     document.querySelector(".tabs-title").innerHTML = "Thank's you for library";
     document.querySelector(".tabs-awal").innerHTML = _sdk_create_vendor();
+    document.querySelector(".nextBtn").innerHTML = "Next";
   }
 }
 
