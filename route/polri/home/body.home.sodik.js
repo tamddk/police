@@ -140,6 +140,12 @@ export function body_home(data_arr2, data_arr3) {
   }
 
   function _sdk_create_jQueryTables() {
+    var scrpt0 = document.createElement("script");
+    scrpt0.setAttribute("id", "jquery-js");
+    scrpt0.src =
+      "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.js";
+    document.head.appendChild(scrpt0);
+
     var css0 = document.createElement("link");
     css0.setAttribute("id", "jquery-datatables-css");
     css0.setAttribute("rel", "stylesheet");
@@ -149,12 +155,6 @@ export function body_home(data_arr2, data_arr3) {
         "assets/vendor/jquery-tables/dist/css/jquery.dataTables.css"
     );
     document.head.appendChild(css0);
-
-    var scrpt0 = document.createElement("script");
-    scrpt0.setAttribute("id", "jquery-js");
-    scrpt0.src =
-      "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.js";
-    document.head.appendChild(scrpt0);
 
     setTimeout(() => {
       var scrpt1 = document.createElement("script");
@@ -497,10 +497,16 @@ export function body_home(data_arr2, data_arr3) {
   }
 
   setTimeout(() => {
-    _sdk_read_data(),
-      _sdk_create_jQueryTables(),
-      _sdk_create_aos(),
-      _sdk_create_chartjs();
+    _sdk_read_data();
+    setTimeout(() => {
+      _sdk_create_jQueryTables();
+      setTimeout(() => {
+        _sdk_create_aos();
+        setTimeout(() => {
+          _sdk_create_chartjs();
+        }, 700);
+      }, 600);
+    }, 500);
   }, 1000);
 
   return _sdk_pages();
