@@ -1,3 +1,38 @@
+//
+//
+//
+//
+//  Application Police v1-Beta
+//
+//
+//
+//
+//
+//
+//
+// MAS
+//    Sodik
+//
+//
+//
+//
+//
+//  PR (Pabrik Rumahan)
+//
+//  PR. Project Sodik
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+// Create 2023 By Mas Sodik
+//
 export function dark_mode() {
   function _sdk_dark_mode() {
     var themeToggleDarkIcon = document.querySelector("#theme-toggle-dark-icon");

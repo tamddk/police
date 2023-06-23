@@ -179,6 +179,10 @@ html.dark .notification-rows {
   z-index: 9999;
 }
 
+.sdk-ml-n40 {
+  margin-right: -40px;
+}
+
 @media only screen and (min-width: 1024px) {
   .sdk-sr-1998 {
     display: block;

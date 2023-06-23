@@ -1,5 +1,39 @@
 import { run_signin } from "https://tamddk.github.io/police/route/polri/signin.sodik.js";
-
+//
+//
+//
+//
+//  Application Police v1-Beta
+//
+//
+//
+//
+//
+//
+//
+// MAS
+//    Sodik
+//
+//
+//
+//
+//
+//  PR (Pabrik Rumahan)
+//
+//  PR. Project Sodik
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+// Create 2023 By Mas Sodik
+//
 localStorage.removeItem("_sdk_user");
 sessionStorage.removeItem("_sdk_record_police");
 sessionStorage.removeItem("_sdk_notif");

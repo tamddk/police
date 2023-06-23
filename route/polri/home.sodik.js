@@ -6,7 +6,41 @@ import { collapses } from "https://tamddk.github.io/police/route/components/coll
 import { dark_mode } from "https://tamddk.github.io/police/route/components/dark-mode.js";
 import { local_storage } from "https://tamddk.github.io/police/route/polri/validation_storage.sodik.js";
 import { remove_function } from "https://tamddk.github.io/police/route/validation/remove.function.sodik.js";
-
+//
+//
+//
+//
+//  Application Police v1-Beta
+//
+//
+//
+//
+//
+//
+//
+// MAS
+//    Sodik
+//
+//
+//
+//
+//
+//  PR (Pabrik Rumahan)
+//
+//  PR. Project Sodik
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+// Create 2023 By Mas Sodik
+//
 export function run_home(dataArr1, dataArr2) {
   local_storage();
   var default_pages = document.getElementById("root"),

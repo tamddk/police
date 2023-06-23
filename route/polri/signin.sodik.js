@@ -1,5 +1,39 @@
 import { _sdk_signin } from "https://tamddk.github.io/police/route/validation/form/request.signin.sodik.js";
-
+//
+//
+//
+//
+//  Application Police v1-Beta
+//
+//
+//
+//
+//
+//
+//
+// MAS
+//    Sodik
+//
+//
+//
+//
+//
+//  PR (Pabrik Rumahan)
+//
+//  PR. Project Sodik
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+// Create 2023 By Mas Sodik
+//
 export function run_signin() {
   function _sdk_pages() {
     return `

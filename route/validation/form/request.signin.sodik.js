@@ -1,5 +1,39 @@
 import { default_home } from "https://tamddk.github.io/police/route/0182746283910.js";
-
+//
+//
+//
+//
+//  Application Police v1-Beta
+//
+//
+//
+//
+//
+//
+//
+// MAS
+//    Sodik
+//
+//
+//
+//
+//
+//  PR (Pabrik Rumahan)
+//
+//  PR. Project Sodik
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+// Create 2023 By Mas Sodik
+//
 export function _sdk_signin() {
   var default_pages = document.getElementById("root"),
     default_assets = { routes: url_default_page + "route/" },

@@ -2,7 +2,41 @@ import { run_home } from "https://tamddk.github.io/police/route/polri/home.sodik
 import { top_home } from "https://tamddk.github.io/police/route/polri/home/top.home.sodik.js";
 import { sidebar_home } from "https://tamddk.github.io/police/route/polri/home/sidebar.home.sodik.js";
 import { body_home } from "https://tamddk.github.io/police/route/polri/home/body.home.sodik.js";
-
+//
+//
+//
+//
+//  Application Police v1-Beta
+//
+//
+//
+//
+//
+//
+//
+// MAS
+//    Sodik
+//
+//
+//
+//
+//
+//  PR (Pabrik Rumahan)
+//
+//  PR. Project Sodik
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+// Create 2023 By Mas Sodik
+//
 export function default_home() {
   var default_pages = document.getElementById("root"),
     default_assets = { routes: url_default_page + "route/" },
